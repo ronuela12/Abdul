@@ -279,12 +279,13 @@ section p{
     /*At 100% width alows 3 in here*/
     width: calc(100% / 5);
     overflow: hidden;
-    padding: 40px 10px 0;
+    padding: 40px 30px 0;
     transition: 0.4s;
 }
 .project:hover {
     /*background: rgb(255, 226, 183);*/
     background: linear-gradient(rgb(253, 217, 146), rgb(255, 236, 209));
+    border-radius: 10px;
 }
 .project img {
     width: 120px;
@@ -679,6 +680,10 @@ section p{
     section .upper-header{
         margin: auto;
     }
+    .project {
+        padding: 10px 0;
+    }
+ 
     
     
 }
