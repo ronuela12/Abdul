@@ -93,7 +93,7 @@ nav ul li a {
 #slideout-menu {
     display: none;
     position: fixed;
-    margin-top: 80px;
+    margin-top: 90px;
     width: 100%;
     text-align: center;
     transition: 0.4s;
@@ -402,6 +402,7 @@ section p{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .icon{
@@ -438,13 +439,13 @@ section p{
 
 .card:hover h3{
     opacity: 1;
-    top: -35px;
+    top: 35px;
     transition: .3s linear .3s;
 }
 
 .card:hover span{
     opacity: 1;
-    bottom: -35px;
+    bottom: 35px;
     transition: .3s linear .3s;
     position: none;
 }
@@ -475,11 +476,13 @@ section p{
     border-top: solid darkturquoise 10px;
     color: rgb(0, 0, 0);
     text-align: center;*/
-    position: absolute;
+    position: relative;
     background: linear-gradient( rgb(238, 171, 47), purple);
     width: 100%;
     bottom: 0px;
     text-align: center;
+    z-index: 100;
+    
 }
 .footer p{
     padding-bottom: 10px;
@@ -587,9 +590,11 @@ section p{
     }
     .picture-2 .explain{
         width: 30%;
+        
     }
     .picture-3 .explain{
         width: 55%;
+        
     }
 
     
